@@ -1,0 +1,269 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+header{
+	width: 100%;
+	display: block;
+	background-color: #101010;
+	height: 90px;
+
+}
+body{
+	background-color: #191919;
+}
+.navbar{
+	font-family: "Robono Cn" sans-serif;
+	font-size: 16px;
+	display: flex;
+	float: right;
+	margin-right: 20%;
+	margin-top: 2%;
+	text-transform: uppercase;
+}
+
+
+.navbar  a li{
+	padding: 1rem 0;
+	margin: 0 1rem;
+	position: relative;
+	letter-spacing: 2px;
+	color: white;
+
+}
+
+.navbar a li:hover{
+	color:  #1db954;
+	transition: .5s;
+}
+.footer-quan{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #101010;
+	color: white;
+	text-align: center;
+
+}
+
+.footer-quan p{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.home1{
+	border-bottom: 2px solid;
+}
+
+.searchbar{
+	display: block;
+	float: right;
+	margin-right: 4.4%;
+	margin-top: 30px;
+	font-size: 17px;
+}
+
+input.baba{
+	background-color: #dbdbdb;
+	color: #101010;
+	border-radius: 7px;
+	border: 1px solid #DDDDDD;
+	box-shadow: none;
+		height: 25px;
+
+}
+
+::placeholder {
+	color: #4f4f4f;
+	margin-left: 2px;
+}
+
+.logo{
+	color: white;
+	font-family: Arial;
+	font-style: italic;
+	letter-spacing: 2px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 20px;
+
+}
+span{
+	color:  #1db954;
+}
+.select-custom{
+	margin-top: 5%;
+	margin-left: 25%;
+	font-family: Arial;
+	position: relative;
+
+}
+.select-custom select{
+	width: 10%;
+	height: 40px;
+	background-color: #1db954;
+	color: white;
+}
+
+
+.select-custom1{
+	margin-top:  -3%;
+	margin-left: 45%;
+	font-family: Arial;
+	position: relative;
+
+}
+.select-custom1 select{
+	width: 13%;
+	height: 40px;
+	background-color: #1db954;
+	color: white;
+}
+
+.select-custom2{
+	margin-top:  -3%;
+	margin-left: 65%;
+	font-family: Arial;
+	position: relative;
+
+}
+.select-custom2 select{
+	width: 16%;
+	height: 40px;
+	background-color: #1db954;
+	color: white;
+}
+
+.linija{
+	margin-top: 4%;
+	width: 80%;
+	margin-left: 10%;
+	opacity: 10%;
+}
+
+
+.albums{
+	color: white;
+	margin-top: 3%;
+	font-size: 48px;
+	font-family: Arial;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+
+
+.tpab img{
+	width: 100%;
+}
+
+.tpab{
+	border:3px;
+	border-style:solid;
+    border-color:#242424;
+    padding: 3em;
+    width: 30%;
+    margin-left: 13%;
+    margin-top: 3%;
+    font-family: "Verdana";
+	font-size: 12px;
+	height: 20%;
+}
+
+.tpab-paragraph p{
+	font-family: "Verdana";
+	font-size: 10px;
+	margin-bottom: -3%;
+}
+
+.tpab:hover{
+	background-color: #242424;
+	transition: .6s;
+}
+
+
+
+.swans img{
+	width: 100%;
+}
+.swans{
+	border: 3px;
+	border-style: solid;
+	border-color: #242424;
+	padding: 3em;
+	width: 30%;
+	font-family: "Verdana";
+	margin-left: 13%;
+	font-size: 12px;
+}
+.swans-paragraph p{
+	font-family: "Verdana";
+	font-size: 10px;
+	margin-bottom: -3%;
+}
+.swans:hover{
+	background-color: #242424;
+	transition: .6s;
+}
+
+
+.coincoin img{
+	width: 100%;
+}
+.coincoin{
+	border: 3px;
+	border-style: solid;
+	border-color: #242424;
+	padding: 3em;
+	width: 31%;
+	font-family: "Verdana";
+	font-size: 12px;
+	margin-left: 48.5%;
+	margin-top: -84.3%;
+}
+.coincoin-paragraph p{
+	font-family: "Verdana";
+	font-size: 10px;
+	margin-bottom: -3%
+}
+.coincoin:hover{
+	background-color: #242424;
+	transition: .6s;
+}
+
+
+
+.content2{
+	display: flex;
+}
+.content2 p{
+	font-size: 10px;
+}
+.mw img{
+	width: 100%
+}
+.mw{
+	border: 3px;
+	border-style: solid;
+	border-color: #242424;
+	padding: 3em;
+	width: 31%;
+	font-family: "Verdana";
+	margin-left: 48.5%;
+	font-size: 12px;
+}
+
+.mw-paragraph p{
+	font-family: :"Verdana";
+	font-size: 10px;
+	margin-bottom: -3%;
+}
+.mw:hover{
+	background-color: #242424;
+	transition: .6s
+}
+
